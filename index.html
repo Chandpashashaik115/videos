@@ -8,10 +8,18 @@
         body {
             text-align: center;
         }
+        .video-container {
+            display: inline-block;
+            width: 48%;
+            box-sizing: border-box;
+            padding: 10px;
+            text-align: left;
+	    margin:1%;
+        }
 
         video {
-            width: 50%;
-            max-width: 640px; /* Optional: set a maximum width for larger screens */
+            width: 100%;
+            max-width: 100%; /* Optional: set a maximum width for larger screens */
             display: inline-block;
             margin: 10px;
         }
@@ -19,51 +27,85 @@
 </head>
 <body>
 
-<!-- Video 1 -->
-<video width="640" height="360" controls muted autoplay>
-    <source src="articulated_arm.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
 
-<!-- Video 2 -->
-<video width="640" height="360" controls muted autoplay>
-    <source src="bionic_arm.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
 
-<!-- Video 3 -->
-<video width="640" height="360" controls muted autoplay>
-    <source src="draganddrop.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
 
-<!-- Video 4 -->
-<video width="640" height="360" controls muted autoplay>
-    <source src="Isro.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
 
 <!-- Video 5 -->
+<div class = "video-container">
+<h2>ToDoList</h2>
 <video width="640" height="360" controls muted autoplay>
     <source src="Todolist.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
-<!-- Video 6 -->
-<video width="640" height="360" controls muted autoplay>
-    <source src="biped.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+</div>
 
-<!-- Video 7 -->
-<video width="640" height="360" controls muted autoplay>
-    <source src="selfdrivingcar.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
 <!-- Video 8 -->
+<div class = "video-container">
+<h2>FaceDetector</h2>
 <video width="640" height="360" controls muted autoplay>
     <source src="facedetector.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+</div>
+
+<!-- Video 3 -->
+<div class = "video-container">
+<h2>Drag and Drop</h2>
+<video width="640" height="360" controls muted autoplay>
+    <source src="draganddrop.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+
+<!-- Video 4 -->
+<div class = "video-container">
+<h2>Chasis Solidworks Design</h2>
+<video width="640" height="360" controls muted autoplay>
+    <source src="Isro.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+
+<!-- Video 6 -->
+<div class = "video-container">
+<h2>Biped</h2>
+<video width="640" height="360" controls muted autoplay>
+    <source src="biped.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+<!-- Video 1 -->
+<div class = "video-container">
+<h2>Articulated Arm</h2>
+<video width="640" height="360" controls muted autoplay>
+    <source src="articulated_arm.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+
+<!-- Video 2 -->
+<div class = "video-container">
+<h2>Bionic Arm</h2>
+<video width="640" height="360" controls muted autoplay>
+    <source src="bionic_arm.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+
+
+
+
+<!-- Video 7 -->
+<div class = "video-container">
+<h2>SelfDrivingCar</h2>
+<video width="640" height="360" controls muted autoplay>
+    <source src="selfdrivingcar.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+
+
 <!-- Add more videos as needed -->
 
 </body>
